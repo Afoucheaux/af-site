@@ -1,0 +1,7 @@
+.landingLayout {
+  height: 100vh;
+  width: 100vw;
+  background-image: url('../../image/backgroundPerSite.jpg');
+  background-size: cover;
+  background-color: #F8F8F8
+}

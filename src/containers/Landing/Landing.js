@@ -1,9 +1,12 @@
 import React from 'react';
 import './Landing.css';
+import Header from '../../components/Header/Header'
 
 const Landing = () => {
   return (
-    <p>test</p>
+    <main className='landingLayout'>
+      <Header />
+    </main>
   )
 }
 
