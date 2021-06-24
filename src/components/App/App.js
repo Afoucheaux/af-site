@@ -1,8 +1,12 @@
 import './App.css';
+import Landing from '../../containers/Landing/Landing.js';
+import { Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <p>test</p>
+    <Switch>
+      <Route path='/' component={ Landing }/>
+    </Switch>
   );
 }
 
