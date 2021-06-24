@@ -6,6 +6,7 @@ const Landing = () => {
   return (
     <main className='landingLayout'>
       <Header />
+      
     </main>
   )
 }
