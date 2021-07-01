@@ -8,6 +8,9 @@
 .backGroundTop {
   height: 9vh;
   width: 100vw;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   background-color: #575959;
 }
 
@@ -24,7 +27,6 @@
 
 .imgOutline {
   display: flex;
-
   justify-content: center;
   align-items: center;
   width: 6vw;

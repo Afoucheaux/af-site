@@ -2,6 +2,6 @@
   height: 100vh;
   width: 100vw;
   background-image: url('../../image/backgroundPerSite.jpg');
+  /* background-image: url('../../image/backgroundPerSite.jpg'), linear-gradient(#575959, #f0eeeb); */
   background-size: cover;
-  background-color: #F8F8F8
 }
