@@ -1,12 +1,17 @@
 import React from 'react';
 import './Landing.css';
 import Header from '../../components/Header/Header'
-import Profile from '../Profile/Profile.js'
+import Profile from '../../components/Profile/Profile.js'
 
 const Landing = () => {
   return (
-    <main className='landingLayout'>
-      <Header />
+    <main>
+      <section className='landingLayout'>
+        <Header />
+      </section>
+      <section className='profileLayout'>
+        <Profile />
+      </section>
     </main>
   )
 }

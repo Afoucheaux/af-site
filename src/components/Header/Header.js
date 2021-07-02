@@ -7,9 +7,9 @@ const Header = () => {
     <>
       <section className='headerLayout'>
         <article className='backGroundTop'>
-          <HashLink smooth to='/Profile'>Profile</HashLink>
-          <HashLink smooth to='/Profile'>Profile</HashLink>
-          <HashLink smooth to='/Profile'>Profile</HashLink>
+          <HashLink smooth to='/#section-one' className='hashLink'>Profile</HashLink>
+          <HashLink smooth to='/Profile' className='hashLink'>Work</HashLink>
+          <HashLink smooth to='/Profile' className='hashLink'>Res</HashLink>
         </article>
         <article className='lineBreak'>
         </article>
