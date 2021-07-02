@@ -42,8 +42,19 @@
   border-width: 1vh;
 }
 
-
 .iconText {
   font-size: 2.25em;
   color: #393A3A;
+}
+
+.hashLink {
+  text-decoration: none;
+  color: #393A3A;
+  margin: 1%;
+  font-size: 1.25em;
+  font-weight: bold;
+}
+
+.end {
+  margin-right: 5%;
 }

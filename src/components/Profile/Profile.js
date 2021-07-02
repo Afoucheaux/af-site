@@ -1,10 +1,10 @@
 import React from 'react';
+import './Profile.css';
 
 const Profile = () => {
   return (
-    <section>
-      <p id='section-one'>Section One</p>
-      <p id='section-two'>Section Two</p>
+    <section id='profile' className='profileLayout'>
+      <p>Section Two</p>
     </section>
   )
 }
