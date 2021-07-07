@@ -7,7 +7,7 @@ const ProfileLanding = () => {
       <article className='profileLandingCard'>
         <h1 className='name'>Aaron Foucheaux</h1>
         <h2 className='title'>Software Developer</h2>
-        <p className='kindOfDev'>Need to come up with statement.</p>
+        <p className='kindOfDev'>Need to come up with a statement.</p>
       </article>
     </section>
   )
