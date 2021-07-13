@@ -1,6 +1,7 @@
 import React from 'react';
 import './ProfileLanding.css';
 
+
 const ProfileLanding = () => {
   return (
     <section className='profileLandingLayout'>

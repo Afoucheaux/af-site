@@ -1,6 +1,6 @@
 import React from 'react';
 import './Work.css';
-import { workData } from '../../Data/Data.js'
+import { workData } from '../../Data/Data.js';
 
 const Work = () => {
   console.log(workData[0].mainImg)
