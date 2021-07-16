@@ -42,7 +42,7 @@ export const workData = [
     repo: 'https://github.com/Afoucheaux/overlook',
     deployed: '',
     desc: 'Hotel Booking application demo',
-    advDesc: 'This project utilize JavaScript to build a hotle booking app.'
+    advDesc: 'This project utilize JavaScript to build a hotle booking app.',
     mainImg: 'https://i.postimg.cc/6QhBM44c/Overlook1.png',
     allImg: ['https://i.postimg.cc/6QhBM44c/Overlook1.png', 'https://i.postimg.cc/Yqg019Rn/Overlook2.png', 'https://i.postimg.cc/bw7RmsfZ/Overlook3.png', 'https://i.postimg.cc/Y2vzB62v/Overlook4.png'],
     gifs: ['https://media.giphy.com/media/2F4oUAYpBc0eFTr93x/giphy.gif', 'https://media.giphy.com/media/3HOzvJBrPv1cTxLfKm/giphy.gif']
