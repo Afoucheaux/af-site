@@ -34,3 +34,19 @@
   font-size: 1.5em;
   margin: 1% 0% 1% 19%;
 }
+
+.linkStylingBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+.linkImg {
+  width: 80%;
+}
+
+.linkText {
+  color: black
+}
