@@ -3,7 +3,6 @@ import './Work.css';
 import { workData } from '../../Data/Data.js';
 
 const Work = () => {
-  console.log(workData[0].mainImg)
   return (
     <section id='work' className='workLayout'>
       <p>Section One</p>
