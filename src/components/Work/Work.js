@@ -1,7 +1,8 @@
 import React, {useState, useEffect} from 'react';
 import './Work.css';
 import { workData } from '../../Data/Data.js';
-import ProjectCard from '../ProjectCard/ProjectCard.js'
+import ProjectCard from '../ProjectCard/ProjectCard.js';
+import WorkForm from '../WorkForm/WorkForm.js';
 
 const Work = () => {
   const [projects, setProjects] = useState(workData);
@@ -10,6 +11,16 @@ const Work = () => {
   useEffect(() => {
     setFilterProjects(workData);
   }, [])
+
+  const handleForm = (techType) => {
+    if(techType === 'All') {
+      setFilterProjects(projects);
+    } else {
+      const filtered = projects.filter(project => project.techUsed.includes(techType))
+      setFilterProjects(filtered);
+    }
+  }
+
 
   const projectDisplay = filterProjects.map((project) => {
     return (
@@ -26,6 +37,7 @@ const Work = () => {
 
   return (
     <section id='work' className='workLayout'>
+      <WorkForm handleForm={handleForm}/>
       {projectDisplay}
     </section>
   )
