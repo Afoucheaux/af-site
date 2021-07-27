@@ -1,0 +1,46 @@
+.stylingLayout {
+  width: 100vw;
+  height: 12vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #575959;
+  margin: 0;
+  padding: 0;
+  border-top: solid;
+  border-color: #393A3A;
+  border-width: 1vh;
+}
+
+.directionLayout {
+  display: flex;
+  margin: 1%;
+}
+
+.sampleWork {
+  font-size: 1.5em;
+  margin-right: 3%;
+}
+
+.useFilter {
+  font-size: 1.25em;
+  color: #393A3A;
+  font-weight: bold;
+  margin-top: .25%;
+}
+
+.buttonLayout {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.buttonFilter {
+  border-radius: 20px;
+  border: solid;
+  border-color: #393A3A;
+  border-width: .5vh;
+  background-color: #FF642F;
+  width: 7vw;
+  font-weight: bold;
+  color: #393A3A;
+}

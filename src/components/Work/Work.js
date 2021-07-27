@@ -36,7 +36,6 @@ const Work = () => {
 
   return (
     <section id='work' className='workLayout'>
-      <h1>Past Work</h1>
       <WorkForm handleForm={handleForm}/>
       {projectDisplay}
     </section>
