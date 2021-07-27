@@ -1,0 +1,46 @@
+.projectLinkStyling {
+  width: 30vw;
+  height: 40vh;
+  border-radius: 16px;
+  background-color: rgba(185, 191, 191, .95);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  box-shadow: 5px 5px 7px 2px rgba(255, 100, 47, .45),
+  -5px -5px 7px 2px rgba(255, 100, 47, .25);
+  margin: .75%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+  color: black;
+}
+
+.projectLinkStyling:hover {
+  box-shadow: 5px 5px 7px 2px rgba(255, 100, 47, 1),
+  -5px -5px 7px 2px rgba(255, 100, 47, 1);
+}
+
+.projectTitle {
+  font-size: 1.5em;
+  margin: .5%;
+  text-decoration: underline;
+}
+
+.mainImage{
+  max-width: 25vw;
+  max-height: 28vh;
+}
+
+.tech {
+  font-size: 1em;
+  font-weight: bold;
+  margin: .5%;
+}
+
+.quickDesc {
+  text-align: center;
+  font-size: 1em;
+  font-weight: bold;
+  margin: .5%;
+}

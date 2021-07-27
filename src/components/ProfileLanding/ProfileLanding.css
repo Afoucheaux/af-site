@@ -4,7 +4,8 @@
   align-items: center;
   width: 100vw;
   height: 85vh;
-  margin: 0%;
+  margin: 0;
+  padding: 0;
 }
 
 .profileLandingCard {
@@ -33,4 +34,20 @@
 .kindOfDev {
   font-size: 1.5em;
   margin: 1% 0% 1% 19%;
+}
+
+.linkStylingBox {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5%;
+  text-align: center;
+}
+
+.linkImg {
+  width: 80%;
+}
+
+.linkText {
+  color: black
 }
