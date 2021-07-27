@@ -54,7 +54,7 @@ export const workData = [
     repo: 'https://github.com/Afoucheaux/FrontEnd',
     deployed: 'https://jobfinderfe.herokuapp.com/',
     desc: 'Job Finding application',
-    desc: 'This application allows a new user create a profile and login. The user then can search and filter jobs based on city and position. Then they have the ability to save jobs and go to a user profile. In the user profile they are able to view additional details about the jobs saved and link to apply.',
+    advDesc: 'This application allows a new user create a profile and login. The user then can search and filter jobs based on city and position. Then they have the ability to save jobs and go to a user profile. In the user profile they are able to view additional details about the jobs saved and link to apply.',
     mainImg: 'https://i.postimg.cc/8khvdtZg/Job1.png',
     allImg: ['https://i.postimg.cc/8khvdtZg/Job1.png', 'https://i.postimg.cc/65MyzSRg/Job2.png', 'https://i.postimg.cc/ydCdkz4g/Job3.png', 'https://i.postimg.cc/C10hwHkb/Job4.png', 'https://i.postimg.cc/j25rj85n/Job5.png', 'https://i.postimg.cc/RV2zMLzq/Job6.png'],
     gifs: ['https://media.giphy.com/media/um4BxNVkVa4Q0Kazoy/giphy.gif', 'https://media.giphy.com/media/jK5LWZ993RSdKAvVYz/giphy.gif', 'https://media.giphy.com/media/JfXU1IHczQfMk2mKnt/giphy.gif', 'https://media.giphy.com/media/bvI9xSflR6EJEEK0Wc/giphy.gif']

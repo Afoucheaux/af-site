@@ -1,11 +1,14 @@
 .workLayout {
   width: 100vw;
   height: 100vh;
-  background-color: #e3e1de;
+  background-color: #393A3A;
   margin: 0;
   padding: 0;
 }
 
-img {
-  width: 150px;
+.projectDisplayLayout {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }

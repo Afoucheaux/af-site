@@ -1,31 +1,30 @@
 .stylingLayout {
   width: 100vw;
-  height: 12vh;
+  height: 10vh;
   display: flex;
   flex-direction: column;
+   background-image: linear-gradient(#575959, #393A3A);
   background-color: #575959;
   margin: 0;
   padding: 0;
   border-top: solid;
   border-color: #393A3A;
-  border-width: 1vh;
+  border-width: .75vh;
 }
 
 .directionLayout {
   display: flex;
-  margin: 1%;
+  margin: .5%;
 }
 
 .sampleWork {
   font-size: 1.5em;
-  margin-right: 3%;
+  margin: 0 3% 0 3%
 }
 
 .useFilter {
   font-size: 1.25em;
-  color: #393A3A;
-  font-weight: bold;
-  margin-top: .25%;
+  margin-top: .3%;
 }
 
 .buttonLayout {
@@ -39,8 +38,14 @@
   border: solid;
   border-color: #393A3A;
   border-width: .5vh;
-  background-color: #FF642F;
+  background-color: rgba(255, 100, 47, .75);
   width: 7vw;
   font-weight: bold;
   color: #393A3A;
+}
+
+.buttonFilter:hover {
+  background-color: rgba(255, 100, 47, 1);
+  border-color: black;
+  color: black;
 }

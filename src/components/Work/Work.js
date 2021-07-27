@@ -37,7 +37,9 @@ const Work = () => {
   return (
     <section id='work' className='workLayout'>
       <WorkForm handleForm={handleForm}/>
-      {projectDisplay}
+      <article className='projectDisplayLayout'>
+        {projectDisplay}
+      </article>
     </section>
   )
 }
