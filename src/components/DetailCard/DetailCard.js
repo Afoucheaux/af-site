@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './DetailCard.css';
+import {Carousel} from '3d-react-carousal';
 
 const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
   const [imageDisplay, setImageDisplay] = useState([])
@@ -37,8 +38,8 @@ const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
     <article className='detailLayout'>
       <h1 className='detailTitle'>{title}</h1>
       <p className='detailedDesc'>{advDesc}</p>
-      {displayImg}
-      {displayGif}
+      <Carousel slides={displayImg} />
+      <Carousel slides={displayGif} />
       <a href={repo} className='linkRepo' target='_blank'>Repo</a>
       <a href={deployed} className='linkDeployed' target='_blank'>Site</a>
     </article >
