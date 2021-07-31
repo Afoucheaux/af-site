@@ -30,7 +30,7 @@ const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
 
   const displayGif = gifDisplay.map((gif, i) => {
     return (
-      <img src={gif} alt={`${title} gif ${i}`} className='DetailGif'/>
+      <img src={gif} alt={`${title} gif ${i}`} className='Detail Gif'/>
     )
   })
 

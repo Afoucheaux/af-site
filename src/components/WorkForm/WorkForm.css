@@ -33,7 +33,7 @@
   align-items: center;
 }
 
-.buttonFilter {
+/* .buttonFilter {
   border-radius: 20px;
   border: solid;
   border-color: #393A3A;
@@ -50,4 +50,4 @@
   color: black;
   box-shadow: 1px 1px 5px 2px rgba(255, 100, 47, .75),
   -1px -1px 5px 2px rgba(255, 100, 47, .75);
-}
+} */
