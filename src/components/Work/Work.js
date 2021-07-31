@@ -7,6 +7,7 @@ import WorkForm from '../WorkForm/WorkForm.js';
 const Work = () => {
   const [projects, setProjects] = useState(workData);
   const [filterProjects, setFilterProjects] = useState([]);
+  const [searchValue, setSearchValue] = useState('All')
 
   useEffect(() => {
     setFilterProjects(workData);
@@ -19,6 +20,7 @@ const Work = () => {
       const filtered = projects.filter(project => project.techUsed.includes(techType))
       setFilterProjects(filtered);
     }
+    setSearchValue(techType);
   }
 
   const projectDisplay = filterProjects.map((project) => {
@@ -36,7 +38,7 @@ const Work = () => {
 
   return (
     <section id='work' className='workLayout'>
-      <WorkForm handleForm={handleForm}/>
+      <WorkForm handleForm={handleForm} match={searchValue}/>
       <article className='projectDisplayLayout'>
         {projectDisplay}
       </article>
