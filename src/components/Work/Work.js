@@ -7,7 +7,7 @@ import WorkForm from '../WorkForm/WorkForm.js';
 const Work = () => {
   const [projects, setProjects] = useState(workData);
   const [filterProjects, setFilterProjects] = useState([]);
-  const [searchValue, setSearchValue] = useState('All')
+  const [searchValue, setSearchValue] = useState('')
 
   useEffect(() => {
     setFilterProjects(workData);
