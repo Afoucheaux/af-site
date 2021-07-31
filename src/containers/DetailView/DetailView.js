@@ -17,7 +17,7 @@ const DetailView = ({ id }) => {
   }
 
   return (
-    <main>
+    <main className='projectViewLayout'>
       <Header />
       {project && <DetailCard title={project.title} advDesc={project.advDesc} allImg={project.allImg} gifs={project.gifs} repo={project.repo} deployed={project.deployed} />}
     </main>

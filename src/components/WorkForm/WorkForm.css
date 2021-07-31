@@ -3,7 +3,7 @@
   height: 10vh;
   display: flex;
   flex-direction: column;
-   background-image: linear-gradient(#575959, #393A3A);
+  background-image: linear-gradient(#575959, #393A3A);
   background-color: #575959;
   margin: 0;
   padding: 0;

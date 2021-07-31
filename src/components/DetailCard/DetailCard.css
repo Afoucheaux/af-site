@@ -1,0 +1,28 @@
+.detailLayout {
+  margin: 3% 3% 0 3%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.titleDescLayout {
+  display: flex;
+  flex-direction: column;
+  width: 73vw;
+  margin: 1% 1% 0 12%;
+}
+
+.detailTitle {
+  font-size: 3em;
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.carouselLayout {
+  max-width: 90vw;
+  margin: 3%;
+}
+
+.carouselItem {
+  max-height: 60vh;
+}
