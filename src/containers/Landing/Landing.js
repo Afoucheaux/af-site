@@ -16,9 +16,6 @@ const Landing = () => {
       <section className='workLayout'>
         <Work />
       </section>
-      <section className='profileLayout'>
-        <Profile/>
-      </section>
       <section className='contactLayout'>
         <Contact />
       </section>

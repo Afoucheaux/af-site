@@ -20,7 +20,9 @@
 
 .detailedDesc {
   font-size: 1.25em;
-  text-indent: 3%
+  text-indent: 3%;
+  font-weight: bold;
+  color: #393A3A;
 }
 
 .carouselLayout {
