@@ -47,8 +47,8 @@ const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
         <Carousel slides={displayGif} />
       </article>
       <article className='projectLinksLayout'>
-        <a href={repo} className='linkRepo' target='_blank'>Repo</a>
-        <a href={deployed} className='linkDeployed' target='_blank'>Site</a>
+        <a href={repo} className='detLink' target='_blank'>GitHub Repo</a>
+        <a href={deployed} className='detLink' target='_blank'>Deployed Site</a>
       </article>
     </section >
   )

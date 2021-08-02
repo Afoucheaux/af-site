@@ -33,3 +33,17 @@
 .carouselItem {
   max-height: 60vh;
 }
+
+.projectLinksLayout {
+  margin: 2%;
+  display: flex;
+  height: 8vh;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.detLink {
+  color: white;
+  font-weight: bold;
+  font-size: 1.75em;
+}
