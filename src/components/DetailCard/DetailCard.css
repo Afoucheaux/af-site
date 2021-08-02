@@ -8,14 +8,19 @@
 .titleDescLayout {
   display: flex;
   flex-direction: column;
-  width: 73vw;
+  width: 72vw;
   margin: 1% 1% 0 12%;
 }
 
 .detailTitle {
-  font-size: 3em;
+  font-size: 4em;
   text-align: center;
   margin-bottom: 1%;
+}
+
+.detailedDesc {
+  font-size: 1.25em;
+  text-indent: 3%
 }
 
 .carouselLayout {

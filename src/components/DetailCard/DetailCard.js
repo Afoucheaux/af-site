@@ -52,7 +52,7 @@ const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
       </article>
     </section >
   )
-  
+
 }
 
 export default DetailCard;
