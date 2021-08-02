@@ -4,7 +4,8 @@ import './Contact.css';
 const Contact = () => {
   return (
     <section id='contact' className='contactLayout'>
-      <p>Section three</p>
+      <p>Image Here</p>
+      
     </section>
   )
 }

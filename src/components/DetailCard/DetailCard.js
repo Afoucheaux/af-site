@@ -24,26 +24,35 @@ const DetailCard = ({title, advDesc, allImg, gifs, repo, deployed}) => {
 
   const displayImg = imageDisplay.map((img, i) => {
     return (
-      <img src={img} alt={`${title} image ${i}`} className='DetailImage'/>
+      <img src={img} alt={`${title} image ${i}`} className='carouselItem'/>
     )
   })
 
   const displayGif = gifDisplay.map((gif, i) => {
     return (
-      <img src={gif} alt={`${title} gif ${i}`} className='Detail Gif'/>
+      <img src={gif} alt={`${title} gif ${i}`} className='carouselItem'/>
     )
   })
 
   return (
-    <article className='detailLayout'>
-      <h1 className='detailTitle'>{title}</h1>
-      <p className='detailedDesc'>{advDesc}</p>
-      <Carousel slides={displayImg} />
-      <Carousel slides={displayGif} />
-      <a href={repo} className='linkRepo' target='_blank'>Repo</a>
-      <a href={deployed} className='linkDeployed' target='_blank'>Site</a>
-    </article >
+    <section className='detailLayout'>
+      <article className='titleDescLayout'>
+        <h1 className='detailTitle'>{title}</h1>
+        <p className='detailedDesc'>{advDesc}</p>
+      </article>
+      <article className='carouselLayout'>
+        <Carousel slides={displayImg} />
+      </article>
+      <article className='carouselLayout'>
+        <Carousel slides={displayGif} />
+      </article>
+      <article className='projectLinksLayout'>
+        <a href={repo} className='detLink' target='_blank'>GitHub Repo</a>
+        <a href={deployed} className='detLink' target='_blank'>Deployed Site</a>
+      </article>
+    </section >
   )
+
 }
 
 export default DetailCard;

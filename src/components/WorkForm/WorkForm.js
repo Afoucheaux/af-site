@@ -13,6 +13,7 @@ const WorkForm = ({ handleForm, match }) => {
           <FilterButton value={'All'} match={match} handleForm={handleForm} />
           <FilterButton value={'JavaScript'} match={match} handleForm={handleForm} />
           <FilterButton value={'React'} match={match} handleForm={handleForm} />
+          <FilterButton value={'TypeScript'} match={match} handleForm={handleForm} />
           <FilterButton value={'HTML5'} match={match} handleForm={handleForm} />
           <FilterButton value={'CSS'} match={match} handleForm={handleForm} />
           <FilterButton value={'Sass'} match={match} handleForm={handleForm} />
