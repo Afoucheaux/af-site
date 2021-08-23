@@ -8,9 +8,11 @@ const Header = () => {
     <>
       <section className='headerLayout'>
         <article className='backGroundTop'>
-          <HashLink smooth to='/' className='hashLink'>Home</HashLink>
-          <HashLink smooth to='/#work' className='hashLink'>Portfolio</HashLink>
-          <HashLink smooth to='/#contact' className='hashLink end'>Contact</HashLink>
+          <div className='hashStyling'>
+            <HashLink smooth to='/' className='hashLink'>Home</HashLink>
+            <HashLink smooth to='/#work' className='hashLink'>Portfolio</HashLink>
+            <HashLink smooth to='/#contact' className='hashLink end'>Contact</HashLink>
+          </div>
         </article>
         <article className='lineBreak'>
         </article>

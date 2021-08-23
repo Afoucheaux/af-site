@@ -9,9 +9,16 @@
   height: 9vh;
   width: 100vw;
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   background-color: #575959;
+}
+
+.hashStyling {
+  display: flex;
+  justify-content: space-around;
+  width: 30vw;
+  margin-left: 70vw;
+  animation: 5s hashlinkload;
 }
 
 .lineBreak {
@@ -40,6 +47,7 @@
   border: solid;
   border-color: #393A3A;
   border-width: 1vh;
+  animation: 5s headerload;
 }
 
 .iconText {
@@ -57,4 +65,29 @@
 
 .end {
   margin-right: 5%;
+}
+
+@keyframes headerload {
+  from {
+    left: 0vw;
+    top: 2vh;
+  }
+
+  to {
+    left: 3vw;
+    top: 2vh;
+    transform: rotate(360deg)
+  }
+}
+
+@keyframes hashlinkload {
+  from {
+    width: 10vw;
+    margin-left: 10vw;
+  }
+
+  to {
+    margin-left: 70vw;
+    width: 30vw;
+  }
 }

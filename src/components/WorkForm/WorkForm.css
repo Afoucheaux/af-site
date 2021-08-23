@@ -1,6 +1,6 @@
 .stylingLayout {
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   flex-direction: column;
   background-image: linear-gradient(#575959, #393A3A);
@@ -14,7 +14,7 @@
 
 .directionLayout {
   display: flex;
-  margin: .5%;
+  margin: 1%;
 }
 
 .sampleWork {
