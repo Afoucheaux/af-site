@@ -6,6 +6,7 @@
   height: 85vh;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 .profileLandingCard {
@@ -17,6 +18,7 @@
   backdrop-filter: blur(5px);
   box-shadow: 5px 5px 7px 2px rgba(57, 58, 58, .65),
   -5px -5px 7px 2px rgba(57, 58, 58, .65);
+  animation: 3s profileload;
 }
 
 .name {
@@ -33,4 +35,14 @@
 .kindOfDev {
   font-size: 1.5em;
   margin: 1% 0% 1% 19%;
+}
+
+@keyframes profileload {
+  from {
+    margin-left: 100vw;
+  }
+
+  to {
+    margin-left: 3%;
+  }
 }
